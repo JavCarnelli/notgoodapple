@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/video/[HD] Touhou - Bad Apple!! [ＰＶ] (Shadow Art).webm" type="VideoStream" id=1]
+[ext_resource path="res://assets/scenes/NotGoodApple.gd" type="Script" id=2]
+
+[node name="NotGoodApple" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="VideoPlayer" type="VideoPlayer" parent="."]
+margin_left = 1104.0
+margin_top = 512.0
+margin_right = 1360.0
+margin_bottom = 768.0
+stream = ExtResource( 1 )
+autoplay = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+current = true
