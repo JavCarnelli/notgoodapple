@@ -1,14 +1,9 @@
-Resolución de la aplicación: 1360 x 768
-Resolución del video: 960 x 720
+Application resolution: 1360 x 768
+Video resolution:: 960 x 720
 
-Tamaño de la imagen de la manzana grande:  64x64
-Tamaño de la imagen de la manzana pequeña: 8x8
+Using the apple image of 16x16 pixels
+720/16 = 45 (amount of apple images in vertical)
+960/16 = 60 (amount of apple images in horizontal)
 
-Con imagen 8x8
-720/8 = 90 (imágenes de la manzana en vertical)
-960/8 = 120 (imágenes de la manzana en horizontal)
-
-Con imagen 16x16
-720/16 = 45 (imágenes de la manzana en vertical)
-960/16 = 60 (imágenes de la manzana en horizontal)
+Every frame must be rescaled to 60 x 45 px
 Cada fotograma se debe reescalar a 60x45

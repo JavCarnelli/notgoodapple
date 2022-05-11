@@ -70,8 +70,8 @@ func take_frame() -> void:
 #the volume a little bit.
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("raise_volume"):
-		if (video_player.volume_db >= 10):
-			video_player.volume_db = 10
+		if (video_player.volume_db >= 5):
+			video_player.volume_db = 5
 		else:
 			video_player.volume_db += 5
 		
