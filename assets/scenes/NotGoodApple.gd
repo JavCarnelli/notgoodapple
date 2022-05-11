@@ -22,7 +22,7 @@ func _ready() -> void:
 
 
 #In the process function (executed every frame) the take_frame() method will be runned
-func _process(delta: float) -> void:
+func _physics_process(delta: float) -> void:
 	take_frame()
 
 
